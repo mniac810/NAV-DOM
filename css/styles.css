@@ -94,6 +94,15 @@ section {
     color: #fff;
     transition: ease 0.3s all;
 }
+/* Responsive navbar */
+@media(max-width:330px){
+    .navbar__menu ul{
+        display: flex;
+        justify-content: centers;
+        text-align: center;
+        margin-bottom: 0;
+    }
+}
 
 /* Header Styles */
 .page__header {
